@@ -59,7 +59,7 @@ class MyPortfoliosController < ApplicationController
     params.require(:my_portfolio).permit(:title, 
                                          :subtitle, 
                                          :body, 
-                                         technologies_attributes: [:name])
-      
+                                         technologies_attributes: [:name]
+                                        )      
   end
 end
