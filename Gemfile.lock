@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/plamenjetchev/my_company_view_tool
+  revision: aedc2761a2b5074928f88cd71b41de770fb315bb
+  specs:
+    my_company_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  my_company_view_tool!
   pg
   puma (~> 3.7)
   rails (~> 5.1.4)
