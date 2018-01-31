@@ -53,3 +53,5 @@ gem 'devise'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'my_company_view_tool'
+gem 'petergate', '~> 1.8', '>= 1.8.1'
+
