@@ -4,6 +4,6 @@
 </br> -->
 <!-- example of another way to create the link -->
 
-<%= link_to "Create New Item", new_my_portfolio_path %>
+<%= link_to "Create New Item", new_my_portfolio_path if logged_in?(:site_admin) %>
 
 <%= render partial: 'portfolio_item', collection: @portfolio_items %>  
