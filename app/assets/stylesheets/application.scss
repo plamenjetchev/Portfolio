@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 55em;
 }
 
 
@@ -54,6 +54,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
+  min-width: 55em;
 }
 
 .masthead-brand {
@@ -82,7 +83,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 62em) {
   .masthead-brand {
     float: left;
   }
@@ -96,11 +97,11 @@ body {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+  padding: 0;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 
