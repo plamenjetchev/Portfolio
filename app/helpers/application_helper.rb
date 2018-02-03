@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    @copyright = MyCompanyViewTool::Renderer.copyright 'Plamen Jetchev', 'All rights reserved'
+    @copyright = MyCompanyViewTool::Renderer.copyright 'Plamen Jetchev.', 'All rights reserved.'
   end
 end
