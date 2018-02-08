@@ -1,10 +1,17 @@
 class MyPortfoliosController < ApplicationController
   before_action :set_porfolio_item, only: [:edit, :update, :show, :destroy]
   layout 'portfolio'
-  access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
+  access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit, :sort]}, site_admin: :all
 
   def index
-    @portfolio_items = MyPortfolio.all
+    @portfolio_items = MyPortfolio.by_position
+  end
+
+  def sort
+    params[:order].each do |key,value|
+      MyPortfolio.find(value[:id]).update(position: value[:position])
+    end    
+    head :ok
   end
 
   def angular
@@ -28,8 +35,7 @@ class MyPortfoliosController < ApplicationController
     end
   end
 
-  def edit
-    
+  def edit    
   end
 
   def update

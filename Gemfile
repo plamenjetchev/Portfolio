@@ -58,4 +58,5 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'bootstrap_form', '~> 2.7'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'kaminari-bootstrap', '~> 3.0', '>= 3.0.1'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
