@@ -8,6 +8,10 @@ class MyPortfolio < ApplicationRecord
   def self.angular
     where(subtitle: "Angular")
   end
+
+  def self.by_position
+    order("position ASC")
+  end
 #another way using lambda
   scope :ruby_on_rails, -> { where(subtitle:"Ruby on Rails") }
 #callback for setting up defaults
