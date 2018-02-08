@@ -7,6 +7,13 @@ class MyPortfoliosController < ApplicationController
     @portfolio_items = MyPortfolio.by_position
   end
 
+  def sort
+    params[:order].each do |key,value|
+      MyPortfolio.find(value[:id]).update(position: value[:position])
+    end    
+    head :ok
+  end
+
   def angular
     @angular_portfolo_items = MyPortfolio.angular
   end
@@ -28,8 +35,7 @@ class MyPortfoliosController < ApplicationController
     end
   end
 
-  def edit
-    
+  def edit    
   end
 
   def update
