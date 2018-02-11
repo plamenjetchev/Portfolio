@@ -8,7 +8,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+color: #fff;
 }
 
 /* Custom default button */
@@ -28,10 +28,11 @@ a:hover {
 
 html,
 body {
+  background: image-url('background-video.wmv');
   height: 100%;
 }
 body {
-  color: #fff;
+  color: auto;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -164,9 +165,10 @@ body {
  * Custom Styles
  */
 
-.card-block {
-  color: black;
-  text-align: left;
+.card-body {
+  color: white;
+  text-align: center;
+  background-color: #efefef00;
 }
 
 .auth-links a {
@@ -181,6 +183,7 @@ body {
   width: 22rem;
   margin: 0 auto;
   float: none;
+  background-color: #efefef00;
 }
 
 .app-nav span {
@@ -199,7 +202,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('background-video.mp4');
+  background: image-url('background-video.wmv');
   background-size: cover;
 }
 
