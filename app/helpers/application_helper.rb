@@ -43,6 +43,10 @@ module ApplicationHelper
       url: my_portfolios_path,
       title: 'Portfolios'
       },
+      {
+      url: tech_tweets_path,
+      title: 'Tech Tweets'
+      }
     ]
   end
 
