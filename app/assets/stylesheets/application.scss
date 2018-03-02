@@ -30,7 +30,7 @@ color: #fff;
 
 html,
 body {
-  background: image-url('background-video.wmv');
+  background: image-url('background.mp4');
   height: 100%;
 }
 body {
@@ -206,7 +206,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('background-video.wmv');
+  background: image-url('background.mp4');
   background-size: cover;
 }
 
@@ -223,5 +223,24 @@ body {
 
 .tech-tweets > .card {
   padding: 30px;
+  background: rgb(145,152,165);
+  opacity: 0.4;
+}
+
+.card:hover {
+  opacity: 1.0;
+}
+
+.app-card-container {
+  padding: 6rem;
+}
+.app-card-container > .card {
+  padding: 2rem;
+  background: rgb(145,152,165);
+  opacity: 0.4;
+}
+
+.app-card-container > .card:hover{
+  opacity: .8; 
 }
 
