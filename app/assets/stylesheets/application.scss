@@ -223,12 +223,12 @@ body {
 
 .tech-tweets > .card {
   padding: 30px;
-  background: rgb(145,152,165);
+  background: rgb(176,166,156);
   opacity: 0.4;
 }
 
 .card:hover {
-  opacity: 1.0;
+  opacity: .8;
 }
 
 .app-card-container {
@@ -236,8 +236,8 @@ body {
 }
 .app-card-container > .card {
   padding: 2rem;
-  background: rgb(145,152,165);
-  opacity: 0.4;
+  background: rgb(176,166,156);
+  opacity: .4;
 }
 
 .app-card-container > .card:hover{
@@ -247,5 +247,9 @@ body {
 .card-block {
   margin: 1rem;
   text-align: right;
+}
+
+.progress {
+  margin: 1rem;
 }
 
