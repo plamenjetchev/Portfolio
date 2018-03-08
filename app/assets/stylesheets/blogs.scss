@@ -1,6 +1,12 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "gritter";
+
+@font-face {
+  font-family: 'Karma';
+  src:font-url('Karma.ttf');
+}
+
 /*
  * Globals
  */
@@ -12,7 +18,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Karma';
   color: #555;
 }
 
@@ -22,7 +28,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Karma';
   font-weight: normal;
   color: #333;
 }
@@ -184,8 +190,12 @@ h6, .h6 {
  * Custom styles
  */ 
 
+.collapse navbar-collapse {
+  text-align: right;
+}
+
 .social-links li {
-font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 .comment-card > .card {

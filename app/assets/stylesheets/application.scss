@@ -1,6 +1,11 @@
 @import "bootstrap";
 @import "gritter";
 
+@font-face {
+  font-family: 'Karma';
+  src:font-url('Karma.ttf');
+}
+
 
 /*
  * Globals
@@ -28,6 +33,7 @@ color: #fff;
  * Base structure
  */
 
+
 html,
 body {
   background: image-url('background.mp4');
@@ -37,6 +43,17 @@ body {
   color: auto;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Karma';
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6, {
+  font-family: 'Karma';
+ 
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -70,7 +87,7 @@ body {
 .masthead {
   margin-bottom: 2rem;
   color: rgba(255,255,255,.5);
-
+  font-family: 'Karma';
 }
 
 .masthead-brand {
@@ -127,7 +144,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: rgba(176,166,156,.5);
 }
 
 
@@ -211,7 +228,7 @@ body {
 }
 
 .app-footer {
-  color: white;
+  color: rgba(176,166,156,.5);
 }
 
 .tech-tweets {
@@ -224,7 +241,7 @@ body {
 .tech-tweets > .card {
   padding: 30px;
   background: rgb(176,166,156);
-  opacity: 0.4;
+  opacity: .4;
 }
 
 .card:hover {
