@@ -298,7 +298,7 @@ DEPENDENCIES
   my_company_view_tool
   petergate (~> 1.8, >= 1.8.1)
   pg
-  popper_js (~> 1.12, >= 1.12.9)
+  popper_js
   puma (~> 3.7)
   rails (~> 5.1.4)
   redcarpet (~> 3.4)
